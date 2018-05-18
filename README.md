@@ -1,5 +1,5 @@
 ### webpack-dev-server
 ```
 npm install   
-npm start
+npm run dev  - go to localhost:8080
 ```
