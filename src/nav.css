@@ -1,5 +1,34 @@
 a {
     color: white;
-    padding: 10px 20px;
+    padding: 10px 40px;
     cursor: pointer;
+    text-decoration: none;
+}
+
+
+.content {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 400px;
+    height: 250px;
+    background-color: rgb(50, 51, 107);
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-size: 18px;}
+
+b {
+    text-align: center;
+}
+
+button {
+    margin-top: 15px;
+    height: 35px;
 }

@@ -8,15 +8,27 @@ export default class extends Component {
         }
     }
 
-    climb() {
-        this.setState({
-            count: this.state.count + 1
-        });
+    hendleClick() {
+        alert("Находится в разработке....");
+        setTimeout(()=>{
+            alert("Ожидайте")
+        }, 1500);
     }
+  
     render() {
         return (
-        <div className="pointer" onClick={this.climb.bind(this)}>
-            <h1>Count: { this.state.count }</h1>
+        <div className="profile">
+            <img src={require("./images/otter1.jpg")} alt="otter" />
+            <h1>Журнал событий</h1>
+            <div className="content">             
+                <ul>
+                    <li>Кто Мы?<a href="#">-Команда Разработчиков</a></li>                    
+                    <li>Почему Мы? -Ломаем стереотипы</li>
+                    <li> <b>Наши проекты и внедрения</b> </li>
+                    <li>+7(747)-489-12-04</li>
+                    <button onClick={this.hendleClick.bind(this)}>Получить бесплатную консультацию</button>
+                </ul>
+            </div>
         </div>
         )
     }
