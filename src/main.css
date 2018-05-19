@@ -1,5 +1,7 @@
 * {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -22,9 +24,9 @@ img {
 
 h1 {   
     color: white;
-    font-size: 3em;
+    font-size: 1.8em;
     font-family: sans-serif;
     text-shadow: 0 0 20px black;
-    margin-bottom: 30px;
+    margin: 20px 0 10px 0;
 }
 

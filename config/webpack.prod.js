@@ -49,6 +49,13 @@ module.exports = env => {
                         name: "images/[name].[ext]"
                     }
                 }]
+            }, {
+                test: /\.md$/,
+                use: [{
+                        loader: "html-loader"
+                    }, {
+                        loader: "markdown-loader"
+                    }]
             }]
         },
         plugins: [
