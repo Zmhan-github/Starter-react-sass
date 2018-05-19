@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import MarkdownData from '../data/post.md'
 
+import logo from '../images/logo-1.svg';
+
 export default class extends Component {
     constructor(props) {
         super(props)
@@ -20,7 +22,7 @@ export default class extends Component {
     render() {
         return (
         <div className="profile">
-            <img src={require("../images/otter1.jpg")} alt="otter" />
+            <img src={logo} alt="otter" />
             <h1>{ this.props.heading }</h1>
             <div className="content">             
                 <p>Кто Мы? -Команда Разработчиков</p>
