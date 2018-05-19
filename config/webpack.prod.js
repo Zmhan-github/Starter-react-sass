@@ -28,12 +28,18 @@ module.exports = env => {
                 }],
                 exclude: /node_modules/
             }, {
-                test: /\.css$/,
+                test: /\.sass$/,
                 use: [{
                         loader: MiniCSSExtractPlugin.loader
                     },
                     {
                         loader: "css-loader"
+                    }, 
+                    {
+                        loader: "postcss-loader"
+                    },
+                    {
+                        loader: "sass-loader"
                     }
                 ]
             }, {
