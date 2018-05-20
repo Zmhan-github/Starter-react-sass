@@ -1,4 +1,3 @@
-require("./main.sass");
-require("./header-content.sass");
-require("./index.html");
-require("./app");
+require("./sass/main.sass")
+require("./index.html")
+require("./app")
