@@ -3,3 +3,36 @@
     background-image: url("./images/hero-1.jpg")
     background-size: cover
     background-position: bottom
+    position: relative
+
+.text-header
+    font-size: 3em
+    text-align: center
+    color: white
+    padding: 150px 0
+
+
+.cloud
+    width: 250px
+    height: 200px
+    position: absolute
+    background: transparent url("images/front_cloud.png") 0 0 no-repeat
+
+.fcloud01
+    top: 100px
+    z-index: 100
+    animation: drift 25s linear infinite
+
+.fcloud02
+    top: 240px
+    z-index: 200	
+    animation: drift 35s 10s linear infinite backwards			 
+
+
+@keyframes drift
+	from
+        transform: translateX(-255px)
+	to
+        transform: translateX(100vw)
+
+
