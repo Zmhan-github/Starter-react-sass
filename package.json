@@ -2,15 +2,10 @@
   "name": "webpack-starter",
   "version": "1.0.0",
   "description": "",
-  "repository": "https://github.com/Zmhan-github/webpack-dev-server.git",
+  "repository": "",
   "main": "index.js",
-  "scripts": {
-    "start": "webpack-dev-server --config=config/webpack.dev.js",
-    "build": "webpack --config=config/webpack.prod.js --env.NODE_ENV=production",
-    "build:dev": "NODE_ENV=production webpack --config=config/webpack.dev.js",
-    "dev": "nodemon --inspect --watch config --watch src/server src/server/main.js",
-    "prod": "NODE_ENV=production node src/server/main.js",
-    "heroku-postbuild": "npm run build"
+  "scripts": {    
+    "dev": "nodemon --inspect --watch config --watch src/server src/server/main.js"  
   },
   "keywords": [],
   "author": "Marat Zhurm",

@@ -1,4 +1,4 @@
 require("./main.sass");
-require("./nav.sass");
+require("./header-content.sass");
 require("./index.html");
 require("./app");
