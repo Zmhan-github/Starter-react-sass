@@ -1,15 +1,19 @@
-.header-content
+.header
     height: 100vh
-    background-image: url("../images/hero-1.jpg")
+    background-image: url("../images/hero-1.jpg") 
     background-size: cover
     background-position: bottom
     position: relative
+    overflow: hidden
+    z-index: 10
 
-.text-header
-    font-size: 3em
-    text-align: center
-    color: white
-    padding: 150px 0
+
+    .text-header
+        font-size: 3em
+        color: white
+        top: 45%
+        left: 50%
+        position: absolute
 
 
 .cloud
@@ -35,4 +39,37 @@
 	to
         transform: translateX(100vw)
 
+
+// SVG ANIMATE
+
+.moon
+    top: 10%
+    left: 65%
+    position: absolute   
+    
+
+
+.lest
+    top: 46%
+    left: 66%
+    position: absolute
+
+.header-bg
+    background-color: rgba(15, 19, 37, .5)
+    height: 100vh
+    width: 100vw
+  
+.man
+    top: 83%
+    left: 43%
+    position: absolute
+    animation: man 8s ease-in forwards
+
+    
+    
+@keyframes man
+	from 
+        transform: translateX(0)
+	to
+        transform: translate(510px, -90px) skew(20deg)  rotate(20deg) translateY(-20px)
 

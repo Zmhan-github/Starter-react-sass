@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0" y="0" width="189.6" height="189.6" viewBox="0 0 189.6 189.6" enable-background="new 0 0 189.603 189.604" xml:space="preserve">
+<style>
+.s0{
+	flood-color:white;
+	flood-opacity:1;
+}
+.s1{
+	stop-color:#000000;
+}
+.s2{
+	stop-color:#AEAEAE;
+}
+.s3{
+	stop-color:#FFFFFF;
+}
+.s4{
+	stop-color:#4A4747;
+}
+.s5{
+	stop-color:#010101;
+}
+
+</style>  <defs>
+    <filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="0" y="0" width="189.6" height="189.6">
+      <feFlood result="back" class="s0"/>
+      <feBlend in="SourceGraphic" in2="back" mode="normal"/>
+    </filter>
+  </defs>
+  <mask maskUnits="userSpaceOnUse" x="0" y="0" width="189.6" height="189.6" id="SVGID_1_">
+    <g filter="url(#Adobe_OpacityMaskFilter)">
+      <defs>
+        <filter id="Adobe_OpacityMaskFilter_1_" filterUnits="userSpaceOnUse" x="0" y="0" width="189.6" height="189.6">
+          <feFlood result="back" class="s0"/>
+          <feBlend in="SourceGraphic" in2="back" mode="normal"/>
+        </filter>
+      </defs>
+      <mask maskUnits="userSpaceOnUse" x="0" y="0" width="189.6" height="189.6" id="SVGID_1_"/>
+      <radialGradient id="SVGID_2_" cx="94.8" cy="94.8" r="94.8" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#000000"/>
+        <stop offset="0.67" stop-color="#AEAEAE"/>
+        <stop offset="1" stop-color="#FFFFFF"/>
+      </radialGradient>
+      <circle mask="url(#SVGID_1_)" fill="url(#SVGID_2_)" cx="94.8" cy="94.8" r="94.8"/>
+    </g>
+  </mask>
+  <radialGradient id="SVGID_3_" cx="94.8" cy="94.8" r="94.8" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#FFFFFF"/>
+    <stop offset="0.64" stop-color="#4A4747"/>
+    <stop offset="1" stop-color="#010101"/>
+  </radialGradient>
+  <circle opacity="0.4" fill="url(#SVGID_3_)" cx="94.8" cy="94.8" r="94.8"/>
+  <defs>
+    <filter id="Adobe_OpacityMaskFilter_2_" filterUnits="userSpaceOnUse" x="26.98" y="26.98" width="135.64" height="135.64">
+      <feFlood result="back" class="s0"/>
+      <feBlend in="SourceGraphic" in2="back" mode="normal"/>
+    </filter>
+  </defs>
+  <mask maskUnits="userSpaceOnUse" x="26.98" y="26.98" width="135.64" height="135.64" id="SVGID_4_">
+    <g filter="url(#Adobe_OpacityMaskFilter_2_)">
+      <defs>
+        <filter id="Adobe_OpacityMaskFilter_3_" filterUnits="userSpaceOnUse" x="26.98" y="26.98" width="135.64" height="135.64">
+          <feFlood result="back" class="s0"/>
+          <feBlend in="SourceGraphic" in2="back" mode="normal"/>
+        </filter>
+      </defs>
+      <mask maskUnits="userSpaceOnUse" x="26.98" y="26.98" width="135.64" height="135.64" id="SVGID_4_"/>
+      <radialGradient id="SVGID_5_" cx="94.8" cy="94.8" r="67.82" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#000000"/>
+        <stop offset="0.67" stop-color="#AEAEAE"/>
+        <stop offset="1" stop-color="#FFFFFF"/>
+      </radialGradient>
+      <circle mask="url(#SVGID_4_)" fill="url(#SVGID_5_)" cx="94.8" cy="94.8" r="67.82"/>
+    </g>
+  </mask>
+  <radialGradient id="SVGID_6_" cx="94.8" cy="94.8" r="67.82" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#FFFFFF"/>
+    <stop offset="0.64" stop-color="#4A4747"/>
+    <stop offset="1" stop-color="#010101"/>
+  </radialGradient>
+  <circle opacity="0.72" fill="url(#SVGID_6_)" cx="94.8" cy="94.8" r="67.82"/>
+  <defs>
+    <filter id="Adobe_OpacityMaskFilter_4_" filterUnits="userSpaceOnUse" x="44.52" y="44.52" width="100.56" height="100.56">
+      <feFlood result="back" class="s0"/>
+      <feBlend in="SourceGraphic" in2="back" mode="normal"/>
+    </filter>
+  </defs>
+  <mask maskUnits="userSpaceOnUse" x="44.52" y="44.52" width="100.56" height="100.56" id="SVGID_7_">
+    <g filter="url(#Adobe_OpacityMaskFilter_4_)">
+      <defs>
+        <filter id="Adobe_OpacityMaskFilter_5_" filterUnits="userSpaceOnUse" x="44.52" y="44.52" width="100.56" height="100.56">
+          <feFlood result="back" class="s0"/>
+          <feBlend in="SourceGraphic" in2="back" mode="normal"/>
+        </filter>
+      </defs>
+      <mask maskUnits="userSpaceOnUse" x="44.52" y="44.52" width="100.56" height="100.56" id="SVGID_7_"/>
+      <radialGradient id="SVGID_8_" cx="94.8" cy="94.8" r="50.28" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#000000"/>
+        <stop offset="0.67" stop-color="#AEAEAE"/>
+        <stop offset="1" stop-color="#FFFFFF"/>
+      </radialGradient>
+      <circle mask="url(#SVGID_7_)" fill="url(#SVGID_8_)" cx="94.8" cy="94.8" r="50.28"/>
+    </g>
+  </mask>
+  <radialGradient id="SVGID_9_" cx="94.8" cy="94.8" r="50.28" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#FFFFFF"/>
+    <stop offset="0.64" stop-color="#4A4747"/>
+    <stop offset="1" stop-color="#010101"/>
+  </radialGradient>
+  <circle fill="url(#SVGID_9_)" cx="94.8" cy="94.8" r="50.28"/>
+  <circle fill="#FFFFFF" cx="95.6" cy="93.31" r="33.01"/>
+</svg>
