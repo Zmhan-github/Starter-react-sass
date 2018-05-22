@@ -5,7 +5,8 @@
   "repository": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --inspect --watch config --watch src/server src/server/main.js"
+    "dev": "nodemon --inspect --watch config --watch src/server src/server/main.js",
+ "build": "webpack --config=config/webpack.prod.js --env.NODE_ENV=production"
   },
   "keywords": [],
   "author": "Marat Zhurm",
@@ -41,6 +42,7 @@
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
     "react-hot-loader": "^4.0.0",
+    "react-spring": "^5.1.10",
     "sass-loader": "^7.0.1",
     "style-loader": "^0.21.0",
     "uglifyjs-webpack-plugin": "^1.2.5",

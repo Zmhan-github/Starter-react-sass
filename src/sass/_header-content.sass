@@ -14,50 +14,63 @@
         top: 45%
         left: 50%
         position: absolute
+    
+    .header__bg
+        background-color: rgba(15, 19, 37, .5)
+        height: 100vh
+        width: 100vw
+        z-index: 150
 
 
-.cloud
-    width: 250px
-    height: 200px
+.header__cloud    
     position: absolute
-    background: transparent url("../images/front_cloud.png") 0 0 no-repeat
+   
 
-.fcloud01
-    top: 100px
-    z-index: 100
+.header__cloud--1  
+    width: 257px
+    height: 105px
+    bottom: 713px
+    background: transparent url("../images/cloud.png") 0 0 no-repeat
+    z-index: 1
     animation: drift 25s linear infinite
 
-.fcloud02
-    top: 240px
-    z-index: 200	
-    animation: drift 35s 10s linear infinite backwards			 
 
 
-@keyframes drift
-	from
-        transform: translateX(-255px)
-	to
-        transform: translateX(100vw)
+.header__cloud--2 
+    width: 158px;
+    height: 66px;
+    bottom: 510px
+    background: transparent url("../images/cloud-2.png") 0 0 no-repeat
+    z-index: 1	
+    animation: drift2 35s 10s linear infinite backwards			 
+
+.header__moon
+    width: 150px
+    height: 150px
+    bottom: 70%
+    left: 60%
+    background: transparent url("../images/header__moon.svg") 0 0 no-repeat
+    position: absolute
 
 
 // SVG ANIMATE
 
-.moon
-    top: 10%
-    left: 65%
-    position: absolute   
-    
+@keyframes drift
+	from
+        transform: translateX(1450px)
+	to
+        transform: translateX(100vw)
 
 
-.lest
-    top: 46%
-    left: 66%
-    position: absolute
 
-.header-bg
-    background-color: rgba(15, 19, 37, .5)
-    height: 100vh
-    width: 100vw
+@keyframes drift2
+	from
+        transform: translateX(-150px)
+	to
+        transform: translateX(100vw)
+
+
+
   
 .man
     top: 83%

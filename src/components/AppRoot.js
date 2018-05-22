@@ -1,20 +1,32 @@
 import React, { Component } from 'react';
-import moon from '../data/moon.html';
+import { Parallax, ParallaxLayer } from 'react-spring'
+import moon from '../images/header__moon.svg';
 import lest from '../data/lest.html'
 import man from '../data/man.html'
+
+
+  
+ 
 
 export default class extends Component {
  
     render() {
         return (
-        <header className="header">
-            <div className="text-header">Some text</div>    
-            <div className="cloud fcloud01"></div>
-            <div className="cloud fcloud02"></div> 
-            <div className="svg-content" dangerouslySetInnerHTML={{ __html: moon}} />  
-            <div className="svg-content" dangerouslySetInnerHTML={{ __html: lest}} />  
-            <div className="svg-content" dangerouslySetInnerHTML={{ __html: man}} />
-        </header>
+        <Parallax pages={2}>
+            <ParallaxLayer offset={0} speed={0.2} >
+                <header className="header">
+                    <div className="header__bg"></div>
+                    <div className="text-header">Some text</div>    
+                    <div className="header__cloud header__cloud--1" />    
+                    <div className="header__cloud header__cloud--2" />
+                    <div className="header__moon" />
+                    <div className="svg-content" dangerouslySetInnerHTML={{ __html: man}} />
+                </header>
+            </ParallaxLayer>
+            <ParallaxLayer offset={1} speed={0.8}>
+                second Page
+            </ParallaxLayer>              
+        </Parallax>
         )
     }
 }
